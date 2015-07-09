@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Fetch me a proxy off proxynova.com",
   "main": "index.js",
+  "bin": {
+    "proxy-fetch": "bin/proxy-fetch.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
